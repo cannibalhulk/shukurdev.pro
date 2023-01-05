@@ -2,9 +2,8 @@
 
 Theme: **sleek**
 
-Blogster is a collection of beautiful, accessible and performant blog templates built with [Astro](https://astro.build) and [Markdoc](https://markdoc.dev).
+Blogster is a collection of beautiful, accessible and performant blog templates built with [Astro](https://astro.build). Astro is a web framework.
 
-Check out the demo here - [Blogster sleek template](https://blogster-sleek.netlify.app).
 
 ## How do I add content?
 
