@@ -31,13 +31,13 @@ const sortedPosts = posts
             year: "numeric",
             month: "short",
             day: "numeric",
-          });
+          })
           return (
             <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3">
               <div class="title">
                 {post.frontmatter.external ? (
                   <a
-                    href={post.frontmatter.url}
+                    href={post.frontmatter.canonicalUrl}
                     target="_blank"
                     class="unset hover:text-text-link"
                   >
