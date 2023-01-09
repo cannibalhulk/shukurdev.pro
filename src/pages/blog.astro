@@ -37,13 +37,13 @@ const sortedPosts = posts
               <div class="title">
                 {post.frontmatter.external ? (
                   <a
-                    href={post.frontmatter.canonicalUrl}
+                    href={post.frontmatter.url}
                     target="_blank"
                     class="unset hover:text-text-link"
                   >
                     <span>{post.frontmatter.title}</span>
                     <span>
-                      <i class="ml-1 text-[12px] fa-solid fa-up-right-from-square" />
+                      <i class="ml-1 text-[13px] fa-solid fa-up-right-from-square" />
                     </span>
                   </a>
                 ) : (
