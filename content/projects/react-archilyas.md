@@ -1,6 +1,6 @@
 ---
-title: Archilyas.com portfolio website
+title: Archilyas Portfolio Website - React
 description: 
-date: 2022-02-13
+date: 2022-10-13
 url: https://github.com/Cannibalhulk/react-archilyas-portfolio
 ---
