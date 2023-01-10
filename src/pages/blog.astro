@@ -33,7 +33,7 @@ const sortedPosts = posts
             day: "numeric",
           })
           return (
-            <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3">
+            <li class="dark:hover:bg-amber-800 hover:bg-amber-100 hover:shadow-md dark:hover:shadow-amber-900 dark:hover:shadow-sm rounded-md grid grid-cols-[1fr] md:grid-cols-[1fr_auto] px-7 transition ease-out delay-330 mb-3">
               <div class="title">
                 {post.frontmatter.external ? (
                   <a
