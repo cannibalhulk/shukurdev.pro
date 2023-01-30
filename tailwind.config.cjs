@@ -4,6 +4,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      backdropFilter: {
+        'none': 'none',
+        'blur': 'blur(20px)',
+      },  
       colors: {
         transparent: "transparent",
         current: "currentColor",
