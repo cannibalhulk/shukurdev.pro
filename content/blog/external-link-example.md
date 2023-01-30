@@ -1,4 +1,5 @@
 ---
+draft: true
 external: true
 url: https://medium.com/the-thinkmill/progressive-rendering-the-key-to-faster-web-ebfbbece41a4
 title: You can also link to an external blog post
