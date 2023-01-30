@@ -5,7 +5,7 @@ description: "You can author content using the familiar markdown syntax you alre
 date: 2022-12-28
 ---
 
-Markdown is powered by [Markdoc](https://markdoc.dev/). This post is an example to showcase the support of all basic markdown syntax. Besides this post, my whole posts is written in MDX([Markdown extended](https://mdxjs.com/docs/what-is-mdx/))
+Markdown is powered by [Markdoc](https://markdoc.dev/). This post is an example to showcase the support of all basic markdown syntax. Besides this post, my whole posts is written in MDX ([Markdown extended](https://mdxjs.com/docs/what-is-mdx/))
 
 ## Inline formatting
 
