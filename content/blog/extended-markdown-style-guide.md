@@ -11,7 +11,7 @@ This blog's markdown is powered by [Markdoc](https://markdoc.dev/). In addition 
 
 You can embed YouTube videos in your blog posts.
 
-{% youtube url="https://www.youtube-nocookie.com/embed/StTqXEQ2l-Y" label="Everything is awesome - Lego movie song" /%}
+{% youtube url="https://www.youtube.com/embed/dQw4w9WgXcQ" label="Everything is awesome - Lego movie song" /%}
 
 ## Tweet
 
