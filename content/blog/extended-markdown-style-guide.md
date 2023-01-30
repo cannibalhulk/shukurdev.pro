@@ -3,7 +3,7 @@ external: false
 title: "Extended markdown style guide"
 description: "In addition to supporting all basic Markdoc syntax, this template also supports extended markdown syntax to render custom components."
 date: 2022-11-01
-ogImagePath: "https://thumbs.dreamstime.com/b/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%B0-%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0-sd-%D0%B8-d-%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-%D0%B2%D0%B5%D0%BD%D0%B7%D0%B5%D0%BB%D1%8F-sdlinked-%D0%BF%D1%80%D0%BE%D0%BF%D0%B8%D1%81%D0%BD%D1%8B%D0%B5-%D0%B1%D1%83%D0%BA%D0%B2%D1%8B-189367832.jpg"
+ogImageAbsoluteUrl: "https://thumbs.dreamstime.com/b/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%D0%B0-%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0-sd-%D0%B8-d-%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF-%D0%B2%D0%B5%D0%BD%D0%B7%D0%B5%D0%BB%D1%8F-sdlinked-%D0%BF%D1%80%D0%BE%D0%BF%D0%B8%D1%81%D0%BD%D1%8B%D0%B5-%D0%B1%D1%83%D0%BA%D0%B2%D1%8B-189367832.jpg"
 ---
 
 This blog's markdown is powered by [Markdoc](https://markdoc.dev/). In addition to supporting all basic markdown syntax, this blog also supports extended syntax to render custom components that are not conventionally available via basic markdown. This post is an example to showcase all available extended markdown syntax.
