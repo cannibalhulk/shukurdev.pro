@@ -2,10 +2,10 @@
 external: false
 title: "Basic markdown style guide"
 description: "You can author content using the familiar markdown syntax you already know. All basic markdown syntax is supported."
-date: 2022-11-02
+date: 2022-12-28
 ---
 
-Markdown is powered by [Markdoc](https://markdoc.dev/). This post is an example to showcase the support of all basic markdown syntax. You can author content using the familiar markdown syntax you already know.
+Markdown is powered by [Markdoc](https://markdoc.dev/). This post is an example to showcase the support of all basic markdown syntax. Besides this post, my whole posts is written in MDX([Markdown extended](https://mdxjs.com/docs/what-is-mdx/))
 
 ## Inline formatting
 
@@ -75,8 +75,6 @@ Paragraphs can be multiline too when they constitute words that make up more tha
 
 ## Code Blocks
 
-Syntax highlighting is done using [Prism.js](https://github.com/PrismJS/prism). You can customise to whichever theme you want from the [plenty available prism themes](https://github.com/PrismJS/prism-themes).
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -89,7 +87,3 @@ Syntax highlighting is done using [Prism.js](https://github.com/PrismJS/prism). 
   </body>
 </html>
 ```
-
-## Images
-
-![Blogster](/images/blogster.png)
