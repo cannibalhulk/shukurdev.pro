@@ -3,10 +3,11 @@ import PageMeta from "../components/PageMeta.astro";
 import PageLayout from "../layouts/PageLayout.astro";
 import Intro from "../components/Intro.astro";
 import ContactForm from "src/components/ContactForm.astro";
-import AboutTheTheme from "../components/AboutTheTheme.astro";
+// import AboutTheTheme from "../components/AboutTheTheme.astro";
 import Experiences from "src/components/Experiences.astro";
 import Analytics from "src/components/Analytics.astro";
 import Skills from "src/components/Skills.astro";
+import ContactPopUp from "src/components/ContactPopUp.astro";
 import { SITE_TITLE } from "../config";
 ---
 
@@ -14,9 +15,10 @@ import { SITE_TITLE } from "../config";
   <PageMeta title={`${SITE_TITLE} | Personal Website`} slot="meta" />
   <Fragment slot="main">
     <Intro />
+    <ContactPopUp/>
     <Experiences/>
     <Skills/>
-    <ContactForm/>
+    <ContactForm id="contact" />
     <Analytics/>
   </Fragment>
 </PageLayout>
