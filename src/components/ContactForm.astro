@@ -1,7 +1,8 @@
 ---
 import styles from '../styles/ContactForm.module.css'
+const {id} = Astro.props
 ---
-<form class={styles.form} action="https://formspree.io/f/xqkoaqke" method="POST">
+<form {id} class={styles.form} action="https://formspree.io/f/xqkoaqke" method="POST">
     <h1>Contact Me</h1>
     <div>
         <label for="name">NAME:</label>
