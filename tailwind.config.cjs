@@ -7,7 +7,13 @@ module.exports = {
       backdropFilter: {
         'none': 'none',
         'blur': 'blur(20px)',
-      },  
+      }, 
+      screens: {
+        'sm': "390px",
+        'md': "640px",
+        "lg": "1280px",
+        "xl": "1920px"
+      } ,
       colors: {
         transparent: "transparent",
         current: "currentColor",
