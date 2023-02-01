@@ -33,7 +33,7 @@ The following HTML `<h2>`—`<h6>` elements represent five levels of section hea
 
 ## Paragraph
 
-A standalone single paragraph of thee text.
+A standalone single paragraph of the text.
 
 Paragraphs can be multiline too when they constitute words that make up more than one line, i.e they wrap to the next line. Wow! I am really smart to write two lines of text that makes zero sense.
 
