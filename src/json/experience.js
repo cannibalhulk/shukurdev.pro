@@ -22,7 +22,7 @@ export const experinces = [
         company: 'MonoFi',
         linkedIn:"https://www.linkedin.com/company/manatpay/",
         title: 'Intern, Frontend Developer',
-        beginMonth:'January',
+        beginMonth:'February',
         endMonth:'Present',
         beginYear:2023,
         endYear:'Present',
