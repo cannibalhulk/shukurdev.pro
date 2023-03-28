@@ -11,7 +11,7 @@ import { experinces } from "src/json/experience";
                 experinces.sort(function(a,b) {
                     return b.id-a.id
                 }).map((exp)=>(
-                    <div id={`${exp.id}`} class="hover:drop-shadow-md  hover:scale-[1.01] duration-200 ease-in-out hover:shadow-slate-500 dark:hover:shadow-slate-800 mr-3 mb-5 hover:border-[3px]  border-[#f5d0a6] bg-[#f7e2c7] dark:bg-[#2f2c18] dark:border-[#504b29] md:w-1/2 w-full  rounded-lg">
+                    <div id={`${exp.id}`} class="hover:drop-shadow-md  hover:scale-[1.01] duration-200 ease-in-out hover:shadow-slate-500 dark:hover:shadow-slate-800 mr-3 mb-5  border-[#f5d0a6] bg-[#f7e2c7] dark:bg-[#2f2c18] dark:border-[#504b29] md:w-1/2 w-full  rounded-lg">
                         <h3 class="text-xl text-center pt-3 pb-2 text-bl dark:text-white font-bold">{exp.title}</h3>
                         <code class="flex overflow-auto whitespace-nowrap justify-center"><span class="pr-1">At</span> {exp.linkedIn ? ( <a target="_blank" href={`${exp.linkedIn}`}> { exp.company}</a>) : exp.company}</code>
                         <p class="text-md italic pb-2 text-center">{exp.beginMonth},{exp.beginYear} - {exp.endMonth},{exp.endYear}</p>
