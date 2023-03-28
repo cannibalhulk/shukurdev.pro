@@ -1,9 +1,10 @@
 /* eslint-disable turbo/no-undeclared-env-vars */
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
+import react from '@astrojs/react';
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
-
+import { generateRssFeed } from "./rss";
 /* 
   We are doing some URL mumbo jumbo here to tell Astro what the URL of your website will be.
   In local development, your SEO meta tags will have localhost URL.
@@ -29,6 +30,15 @@ if (isBuild) {
 
 // https://astro.build/config
 export default defineConfig({
+  routes: [
+    {
+      path: "/rss.xml",
+      type: "application/xml",
+      async render() {
+        return await generateRssFeed();
+      },
+    },
+  ],
   server: {
     port: SERVER_PORT
   },
@@ -37,5 +47,5 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  }), mdx()]
+  }), mdx(),react()]
 });
