@@ -9,7 +9,7 @@
   (function () {
     if (typeof window !== "undefined") {
       const isSystemColorSchemeDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
+        "(prefers-color-scheme: light)"
       ).matches;
       const storageTheme = sessionStorage.getItem("theme");
       if (!storageTheme && isSystemColorSchemeDark) {
