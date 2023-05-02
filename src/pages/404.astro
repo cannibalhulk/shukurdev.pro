@@ -1,0 +1,13 @@
+---
+import PageMeta from "../components/PageMeta.astro";
+import PageLayout from "../layouts/PageLayout.astro";
+import Notfound from "../components/Notfound.astro"
+---
+
+<PageLayout>
+    <PageMeta title={`404_NOT_FOUND`} slot="meta" />
+    <Fragment slot="main">
+        <Notfound/>
+    </Fragment>
+  </PageLayout>
+  
