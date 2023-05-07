@@ -32,6 +32,8 @@ const { meta, og, twitter } = getPageMeta({
 <meta name="title" content={meta.title} />
 {meta.description && <meta name="description" content={meta.description} />}
 <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Shukurdev.pro RSS Feed" />
+<meta http-equiv="Content-Security-Policy" content="connect-src 'self' vitals.vercel-insights.com">
+
 <!-- Open Graph / Facebook -->
 {og.title && <meta property="og:title" content={og.title} />}
 {og.description && <meta property="og:description" content={og.description} />}
