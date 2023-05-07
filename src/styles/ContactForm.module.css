@@ -22,6 +22,7 @@
 .form div input,.form div textarea{
     /* font-weight: bolder; */
     background-color: #e5e5e5;
+    font-family: monospace;
     font-style: italic;
     padding: 5px 19px;
     color: black;
