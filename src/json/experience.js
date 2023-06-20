@@ -23,8 +23,13 @@ export const experinces = [
         linkedIn:"https://www.linkedin.com/company/manatpay/",
         title: 'Intern, Frontend Developer',
         beginMonth:'February',
-        endMonth:'Present',
+        endMonth:'April',
         beginYear:2023,
-        endYear:'Present',
+        endYear:2023,
+        description: "My duty as a frontend developer simply consisted of building company's website according to Figma design with the collaboration of other developers at the team. We were building the project on top of Next.js.",
+        ul: [
+            "I actively engaged in code reviews and provided constructive feedback to ensure code quality and improve overall development practices.",
+            " By conducting regular testing and debugging sessions, I proactively identified and resolved any frontend-related issues."
+        ]
     }
 ]
