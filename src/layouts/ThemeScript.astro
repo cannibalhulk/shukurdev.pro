@@ -9,7 +9,8 @@
   (function () {
     if (typeof window !== "undefined") {
       const isSystemColorSchemeDark = window.matchMedia(
-        "(prefers-color-scheme: light)"
+        // Edit below if you want to change default color-scheme on the first render of website
+        "(prefers-color-scheme: dark)"
       ).matches;
       const storageTheme = sessionStorage.getItem("theme");
       if (!storageTheme && isSystemColorSchemeDark) {
