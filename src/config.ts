@@ -4,7 +4,7 @@
 export const SITE_TITLE = "Shukurdev.pro";
 export const SITE_DESCRIPTION =
   "Shukurdev.pro © 2023. Welcome to my personal website! I mostly write about modern web development, coding and lifestyle";
-export const TWITTER_HANDLE = "@cannibal_dev";
+export const TWITTER_HANDLE = "@cannnibaldev";
 export const MY_NAME = "Shukur Huseynli";
 
 // setup in astro.config.mjs
